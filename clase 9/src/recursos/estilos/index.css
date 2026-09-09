@@ -1,0 +1,43 @@
+body{
+  background-color: #00ffff;
+  
+}
+header{
+  background-color:aliceblue;
+}
+
+a{
+  color:#333333;
+  text-decoration: none;
+}
+
+@font-face{
+  font-family: Poppins;
+  src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+html{
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+.vinculos{
+  color:#ffffff;
+}
+
+.encabezado-principal{
+    background-color: #000000;
+}
+
+.encabezado-principal .vinculos a{
+    color: #ffffff;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal{
+
+}
+
+/* PIE PRINCIPAL */
+.pie-principal{
+
+}
+
