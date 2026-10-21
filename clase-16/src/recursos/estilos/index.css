@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Encabezado ===== */
+.encabezado-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c8c8c8;
+    padding: 5px 10px;
+    border-bottom: 20px solid #aaaaaa;
+}
+
+.encabezado-principal img {
+    height: 45px;
+    display: block;
+}
+
+.vinculos a {
+    color: #333333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-left: 5px;
+}
+
+/* ===== Contenido ===== */
+.contenido-principal {
+    padding: 0 10px;
+}
+
+.parrafo {
+    font-size: 1.1rem;
+}
+
+/* ===== Pie ===== */
+.pie-principal {
+    background-color: #c8c8c8;
+    padding: 10px;
+}
+
+#contactos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.mensajeria img {
+    height: 24px;
+    display: block;
+}
